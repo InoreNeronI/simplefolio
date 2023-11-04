@@ -11,81 +11,218 @@
 -->
 <!DOCTYPE html>
 <html lang="en" class="sr">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="data-url:../node_modules/@material-icons/svg/svg/precision_manufacturing/baseline.svg" sizes="any" type="image/svg+xml">
 
-    <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
-    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+  <!-- Todo: put here your site title -->
+  <title>Martin Mozos | Developer</title>
+  <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="InoreNeronI, Martin Mozos, Developer" />
+  <!-- Todo: improve your SEO by adding a small description of you -->
+  <meta name="description" content="Martin Mozos | Developer" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="styles.scss" />
-    <script
-      defer
-      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
-    ></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.scss" />
 
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </head>
+  <!-- Todo: remove the below script once you finish your portfolio -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
 
-  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
-
-    <!-- **** Hero Section **** -->
-    <section id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
-          <br />
-          I'm the Unknown Developer.
-        </h1>
-        <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
-          >
-        </p>
-      </div>
-    </section>
-    <!-- /END Hero Section -->
-
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title load-hidden">About me</h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image load-hidden">
-              <img
-                alt="Profile Image"
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="assets/profile.jpg"
-                alt="Profile Image"
-              />
-            </div>
+<!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+<body>
+<!-- THEME -->
+<svg class="d-none" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="bootstrap" viewBox="0 0 512 408" fill="currentcolor">
+    <path d="M106.342 0c-29.214 0-50.827 25.58-49.86 53.32.927 26.647-.278 61.165-8.966 89.31C38.802 170.862 24.07 188.707 0 191v26c24.069 2.293 38.802 20.138 47.516 48.37 8.688 28.145 9.893 62.663 8.965 89.311C55.515 382.42 77.128 408 106.342 408h299.353c29.214 0 50.827-25.58 49.861-53.319-.928-26.648.277-61.166 8.964-89.311 8.715-28.232 23.411-46.077 47.48-48.37v-26c-24.069-2.293-38.765-20.138-47.48-48.37-8.687-28.145-9.892-62.663-8.964-89.31C456.522 25.58 434.909 0 405.695 0H106.342zm236.559 251.102c0 38.197-28.501 61.355-75.798 61.355h-87.202a2 2 0 01-2-2v-213a2 2 0 012-2h86.74c39.439 0 65.322 21.354 65.322 54.138 0 23.008-17.409 43.61-39.594 47.219v1.203c30.196 3.309 50.532 24.212 50.532 53.085zm-84.58-128.125h-45.91v64.814h38.669c29.888 0 46.373-12.03 46.373-33.535 0-20.151-14.174-31.279-39.132-31.279zm-45.91 90.53v71.431h47.605c31.12 0 47.605-12.482 47.605-35.941 0-23.46-16.947-35.49-49.608-35.49h-45.602z"/>
+  </symbol>
+  <symbol id="check2" viewBox="0 0 16 16">
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+  <symbol id="circle-half" viewBox="0 0 16 16">
+    <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+  </symbol>
+  <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+    <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+    <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+  </symbol>
+  <symbol id="sun-fill" viewBox="0 0 16 16">
+    <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+  </symbol>
+</svg>
+<nav class="navbar navbar-expand-lg p-0" role="menu">
+  <div class="container-fluid">
+    <a class="navbar-brand" aria-current="page" tabIndex="0" role="menuitem" routerLink="" href="/">
+      <img class="bi-3x d-inline-block" src="data-url:../node_modules/@material-icons/svg/svg/precision_manufacturing/baseline.svg" alt="Logo"> Home
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent"><!--
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0" role="menu">
+        <li class="nav-item" *ngIf="authService.isAdmin()">
+          <a class="nav-link" aria-current="page" tabIndex="1" role="menuitem" routerLink="/admin">
+            <img class="bi-2x d-inline-block" src="data-url:../node_modules/@material-icons/svg/svg/settings/baseline.svg" alt="{{'ADMIN' | translate}}"> {{'ADMIN' | translate}}
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" tabIndex="2" role="menuitem" routerLink="/subject/math">
+            <img class="bi-2x d-inline-block" src="data-url:../node_modules/@material-icons/svg/svg/calculate/baseline.svg" alt="{{'MATH' | translate}}"> {{'MATH' | translate}}
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" tabIndex="3" role="menuitem" routerLink="/subject/music">
+            <img class="bi-2x d-inline-block" src="data-url:../node_modules/@material-icons/svg/svg/queue_music/baseline.svg" alt="{{'MUSIC' | translate}}"> {{'MUSIC' | translate}}
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" tabIndex="4" role="menuitem" routerLink="/subject/english">
+            <img class="bi-2x d-inline-block" src="data-url:../node_modules/@material-icons/svg/svg/question_answer/baseline.svg" alt="{{'ENGLISH' | translate}}"> {{'ENGLISH' | translate}}
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" tabIndex="5" role="menuitem" routerLink="/subject/dev">
+            <img class="bi-2x d-inline-block" src="data-url:../node_modules/@material-icons/svg/svg/code/baseline.svg" alt="{{'DEV' | translate}}"> {{'DEV' | translate}}
+          </a>
+        </li>
+      </ul>-->
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0" role="menu"><!--
+        <li class="nav-item">
+          <div class="d-flex align-items-center dropstart language-switcher">
+            <button class="btn btn-link px-0 text-decoration-none dropdown-toggle d-flex align-items-center"
+                    id="language-switcher"
+                    role="menuitem"
+                    tabIndex="6"
+                    type="button"
+                    aria-expanded="false"
+                    data-bs-toggle="dropdown"
+                    data-bs-display="static">
+              <img class="bi-2x my-1 me-2 language-switcher-icon-active" src="data-url:../node_modules/@material-icons/svg/svg/translate/baseline.svg" alt="{{'LANGUAGE' | translate}}">
+              <span class="ms-2" id="language-switcher-text"></span>
+            </button>
+            <ul class="dropdown-menu text-end" aria-labelledby="language-switcher">
+              <li *ngIf="!isLang('en')">
+                <button class="dropdown-item d-flex align-items-center active"
+                        role="menuitem"
+                        tabIndex="7"
+                        type="button"
+                        data-bs-theme-value="auto"
+                        (click)="changeLang('en')">{{'ENGLISH' | translate}}
+                  <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+                </button>
+              </li>
+              <li *ngIf="!isLang('es')">
+                <button class="dropdown-item d-flex align-items-center active"
+                        role="menuitem"
+                        tabIndex="8"
+                        type="button"
+                        data-bs-theme-value="auto"
+                        (click)="changeLang('es')">{{'SPANISH' | translate}}
+                  <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+                </button>
+              </li>
+              <li *ngIf="!isLang('eu')">
+                <button class="dropdown-item d-flex align-items-center active"
+                        role="menuitem"
+                        tabIndex="9"
+                        type="button"
+                        data-bs-theme-value="auto"
+                        (click)="changeLang('eu')">{{'BASQUE' | translate}}
+                  <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+                </button>
+              </li>
+            </ul>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info load-hidden">
-              <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you have!
-              </p>
-              <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
-              </p>
-              <span class="d-flex mt-3">
+        </li>-->
+        <li class="nav-item">
+          <div class="d-flex align-items-center dropstart color-modes">
+            <button class="btn btn-link px-0 text-decoration-none dropdown-toggle d-flex align-items-center"
+                    id="bd-theme"
+                    type="button"
+                    aria-expanded="false"
+                    data-bs-toggle="dropdown"
+                    data-bs-display="static"><!--
+              <img class="bi-2x my-1 me-2 theme-icon-active" src="data-url:../node_modules/@material-icons/svg/svg/invert_colors/baseline.svg" alt="">-->
+              <svg class="bi-2x mb-1 me-2 theme-icon-active"><use href="#circle-half"></use></svg>
+              <span class="ms-2" id="bd-theme-text"></span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 8rem;">
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+                  <svg class="bi me-2 opacity-50 theme-icon"><use href="#sun-fill"></use></svg>
+                  Light
+                  <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+                  <svg class="bi me-2 opacity-50 theme-icon"><use href="#moon-stars-fill"></use></svg>
+                  Dark
+                  <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
+                  <svg class="bi me-2 opacity-50 theme-icon"><use href="#circle-half"></use></svg>
+                  Auto
+                  <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- END THEME -->
+<!--<div id="top"></div>-->
+<!-- **** Hero Section **** -->
+<section id="hero" class="jumbotron">
+  <div class="container">
+    <h1 class="hero-title load-hidden">
+      Hi, my name is <span class="text-color-main">Martin Mozos</span>
+      <br />
+      I'm the Unknown Developer.
+    </h1>
+    <p class="hero-cta load-hidden">
+      <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+      >Know more</a
+      >
+    </p>
+  </div>
+</section>
+<!-- /END Hero Section -->
+
+<!-- **** About Section **** -->
+<section id="about">
+  <div class="container">
+    <h2 class="section-title load-hidden">About me</h2>
+    <div class="row about-wrapper">
+      <div class="col-md-6 col-sm-12">
+        <div class="about-wrapper__image load-hidden">
+          <img
+            alt="Profile Image"
+            class="img-fluid rounded shadow-lg"
+            height="auto"
+            width="300px"
+            src="assets/profile.jpg"
+            alt="Profile Image"
+          />
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="about-wrapper__info load-hidden">
+          <p class="about-wrapper__info-text">
+            This is where you can describe about yourself. The more you
+            describe about yourself, the more chances you have!
+          </p>
+          <p class="about-wrapper__info-text">
+            Extra Information about you! like hobbies and your goals.
+          </p>
+          <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
@@ -95,251 +232,251 @@
                   View Resume
                 </a>
               </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /END About Section -->
+
+<!-- **** Projects Section **** -->
+<section id="projects">
+  <div class="container">
+    <div class="project-wrapper">
+      <h2 class="section-title dark-blue-text">Projects</h2>
+
+      <!-- Notice: each .row is a project -->
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <div class="project-wrapper__text load-hidden">
+            <h3 class="project-wrapper__text-title">Project Title 0</h3>
+            <div>
+              <p class="mb-4">
+                Describe the project being very specific, you can use the Twitter standard: no more than 280 characters:
+                complement the information: the skills learned or reinforced in its realization and how you faced it,
+                prove to be proactive in the search for solutions.
+              </p>
             </div>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              class="cta-btn cta-btn--hero"
+              href="#!"
+            >
+              See Live
+            </a>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              class="cta-btn text-color-main"
+              href="#!"
+            >
+              Source Code
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-8 col-sm-12">
+          <div class="project-wrapper__image load-hidden">
+            <a rel="noreferrer" href="#!" target="_blank">
+              <div
+                data-tilt
+                data-tilt-max="4"
+                data-tilt-glare="true"
+                data-tilt-max-glare="0.5"
+                class="thumbnail rounded js-tilt"
+              >
+                <img
+                  alt="Project Image"
+                  class="img-fluid"
+                  src="assets/project.jpg"
+                />
+              </div>
+            </a>
           </div>
         </div>
       </div>
-    </section>
-    <!-- /END About Section -->
+      <!-- /END Project -->
 
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
-                <div>
-                  <p class="mb-4">
-                    Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: 
-                    complement the information: the skills learned or reinforced in its realization and how you faced it, 
-                    prove to be proactive in the search for solutions.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
+      <!-- Notice: each .row is a project -->
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <div class="project-wrapper__text load-hidden">
+            <h3 class="project-wrapper__text-title">Project Title 1</h3>
+            <div>
+              <p class="mb-4">
+                Demonstrate in this description the skills of a programmer: such as having commitment,
+                having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project,
+                you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
+              </p>
             </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              class="cta-btn cta-btn--hero"
+              href="#!"
+            >
+              See Live
+            </a>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              class="cta-btn text-color-main"
+              href="#!"
+            >
+              Source Code
+            </a>
           </div>
-          <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
-                <div>
-                  <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer: such as having commitment, 
-                    having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, 
-                    you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
+        </div>
+        <div class="col-lg-8 col-sm-12">
+          <div class="project-wrapper__image load-hidden">
+            <a rel="noreferrer" href="#!" target="_blank">
+              <div
+                data-tilt
+                data-tilt-max="4"
+                data-tilt-glare="true"
+                data-tilt-max-glare="0.5"
+                class="thumbnail rounded js-tilt"
+              >
+                <img
+                  alt="Project Image"
+                  class="img-fluid"
+                  src="assets/project.jpg"
+                />
               </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
+            </a>
           </div>
-          <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
         </div>
       </div>
-    </section>
-    <!-- /END Projects Section -->
+      <!-- /END Project -->
 
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
+      <!-- Notice: each .row is a project -->
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <div class="project-wrapper__text load-hidden">
+            <h3 class="project-wrapper__text-title">Project Title 2</h3>
+            <div>
+              <p class="mb-4">
+                If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills.
+                Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
+              </p>
+            </div>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              class="cta-btn cta-btn--hero"
+              href="#!"
+            >
+              See Live
+            </a>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              class="cta-btn text-color-main"
+              href="#!"
+            >
+              Source Code
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-8 col-sm-12">
+          <div class="project-wrapper__image load-hidden">
+            <a rel="noreferrer" href="#!" target="_blank">
+              <div
+                data-tilt
+                data-tilt-max="4"
+                data-tilt-glare="true"
+                data-tilt-max-glare="0.5"
+                class="thumbnail rounded js-tilt"
+              >
+                <img
+                  alt="Project Image"
+                  class="img-fluid"
+                  src="assets/project.jpg"
+                />
+              </div>
+            </a>
+          </div>
         </div>
       </div>
-    </section>
-    <!-- /END Contact Section -->
+      <!-- /END Project -->
+    </div>
+  </div>
+</section>
+<!-- /END Projects Section -->
 
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a rel="noreferrer" href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
+<!-- **** Contact Section **** -->
+<section id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-wrapper load-hidden">
+      <p class="contact-wrapper__text">[Put your call to action here]</p>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        class="cta-btn cta-btn--resume"
+        href="mailto:example@email.com"
+      >Call to Action</a
+      >
+    </div>
+  </div>
+</section>
+<!-- /END Contact Section -->
 
-        <hr />
+<!-- **** Footer Section **** -->
+<footer class="footer navbar-static-bottom">
+  <div class="container">
+    <a rel="noreferrer" href="#top" class="back-to-top">
+      <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+    </a>
+    <div class="social-links">
+      <a rel="noreferrer" href="#!" target="_blank">
+        <i class="fa fa-twitter fa-inverse"></i>
+      </a>
+      <a rel="noreferrer" href="#!" target="_blank">
+        <i class="fa fa-linkedin fa-inverse"></i>
+      </a>
+      <a rel="noreferrer" href="#!" target="_blank">
+        <i class="fa fa-github fa-inverse"></i>
+      </a>
+    </div>
 
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
-        <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
+    <hr />
 
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer" 
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobiwave/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
-      </div>
-    </footer>
-    <!-- /END Footer Section -->
+    <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+    <p class="footer__text">
+      © 2021 - Template developed by
+      <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
+      >Jacobo Martínez</a
+      >
+    </p>
 
-    <script defer type="module" src="index.js"></script>
-  </body>
+    <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
+    <p class="mt-3 pt-3">
+      <a
+        rel="noreferrer"
+        class="github-button"
+        href="https://github.com/cobiwave/simplefolio/fork"
+        data-icon="octicon-repo-forked"
+        data-size="large"
+        data-show-count="true"
+        aria-label="Fork ntkme/github-buttons on GitHub"
+      >Fork</a
+      >
+      <a
+        rel="noreferrer"
+        class="github-button"
+        href="https://github.com/cobiwave/simplefolio"
+        data-icon="octicon-star"
+        data-size="large"
+        data-show-count="true"
+        aria-label="Star cobiwave/simplefolio on GitHub"
+      >Star</a
+      >
+    </p>
+  </div>
+</footer>
+<!-- /END Footer Section -->
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js" integrity="sha512-Kr+RPfLjQ71E0cJ9nseJ6jwTrnmMnuSPnnsVQQ/ZYYCjOHKfJcWj8ILICXnvf9A7ZQChNzIbr9x/ZAxA6xAZlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script defer type="module" src="index.js"></script>
+</body>
 </html>
