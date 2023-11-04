@@ -28,10 +28,7 @@
   },
   "dependencies": {
     "@material-icons/svg": "^1.0.33",
-    "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.2",
-    "jquery": "^3.7.1",
-    "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.8.1"
   },
   "alias": {
